@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+.App .MyComponent button {
+  background: #de4d5f;
+  border: none;
+  border-radius: 0.2em;
+  color: #fff;
+  font-size: 30px;
+  margin: 2em;
+  padding: 0.5em;
+}
+
+.App .MyComponent .throbber {
+  margin: 2em auto;
+  height: 20vw;
+  width: 20vw;
+}
